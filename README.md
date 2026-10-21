@@ -1,4 +1,9 @@
 # Capstone-covid-19-forecasting-analysis
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yogeshkbahl/Capstone-covid-19-forecasting-analysis/blob/main/Capstone_Project_%28Covid_19%29.ipynb)
+
+▶️ **Run it in Google Colab:** click the badge above, then **Runtime → Run all**. The data loads straight from this repo, so no upload is needed.
+
 A comprehensive COVID-19 data analysis and forecasting project using Python, Plotly, and Facebook Prophet. Analyzes global infection trends, calculates recovery and mortality rates, and generates 7-day case predictions using time-series forecasting.
 
 # COVID-19 Forecasting & Analysis
@@ -47,8 +52,8 @@ This capstone project analyzes global COVID-19 data to identify infection patter
 
 1. **Clone the repository:**
 ```bash
-   git clone https://github.com/yourusername/covid-19-forecasting-analysis.git
-   cd covid-19-forecasting-analysis
+   git clone https://github.com/yogeshkbahl/Capstone-covid-19-forecasting-analysis.git
+   cd Capstone-covid-19-forecasting-analysis
 ```
 
 2. **Install dependencies:**
@@ -62,8 +67,8 @@ This capstone project analyzes global COVID-19 data to identify infection patter
    conda install -c conda-forge prophet
 ```
 
-3. **Add the dataset:**
-   Place `covid_19_clean_complete.csv` in the project root directory.
+3. **Dataset:**
+   `covid_19_clean_complete.csv` loads automatically from this GitHub repo (no download needed).
 
 ## 🚀 Usage
 
@@ -71,12 +76,12 @@ This capstone project analyzes global COVID-19 data to identify infection patter
 
 **Option 1: Jupyter Notebook (Recommended)**
 ```bash
-jupyter notebook Capstone_Project__Covid_19_.ipynb
+jupyter notebook "Capstone_Project_(Covid_19).ipynb"
 ```
 
 **Option 2: Google Colab**
-1. Upload the notebook and CSV file to Google Colab
-2. Run cells in sequence from top to bottom
+1. Click the **Open in Colab** badge at the top of this README
+2. Choose **Runtime → Run all**
 3. All visualizations will display inline
 
 ### Workflow
